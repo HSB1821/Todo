@@ -16,4 +16,16 @@ This  is my initial code to make a Todo app. The basic purpose is to Create a da
 3. Optimize search mechanism.
 4. Refine the way data is displayed.
 
+## DB Schema
+The relation consists of 4 attributes:
+   1. Task list- contains name of tasks.
+   2. Status - Contains status of tasks (complete/incomplete).
+   3. Priority - Contains Priority of the tasks.
+   4. Date - Contains the date of the task created or to be completed.
+
 ## How to run this in current state
+ The taskdb.py requires a running postgresdb server.
+ The module todbkeys.py contains the credentials to access database.
+      Note- todbkeys.py is hidden since its contains database credentials.
+  One can replace dbkeys.connect_todb() with  psycopg2.connect("dbname= user= ")
+  
