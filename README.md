@@ -1,5 +1,5 @@
 # Todo
-Nothing beats the thrill of writing code  one before some random exam.Even though my To Do for the day was to revise the Theory of Computation ,I almost ended up  making a To do backend.
+Nothing beats the thrill of writing code  one day before exam.Even though my To Do for the day was to revise the Theory of Computation ,I almost ended up  making a To do backend.
 This  is my initial code to make a Todo app. The basic purpose is to Create a database of tasks and have the feature to perform CRUD operations on the Postgres Database.
 
 ## Main components
