@@ -64,11 +64,11 @@ def search_db(search_parameter):
 if(__name__ =="__main__"):
     conn =  dbkeys.connect_todb()
     cur = conn.cursor()
-    print("all fine")
+    #print("all fine")
     cur.execute(" SELECT * FROM \"Todo\" ")
     tab = cur.fetchone()
     print(tab)
     
-    print("Inserted")
+    #print("Inserted")
     cur.close()
     conn.close()
