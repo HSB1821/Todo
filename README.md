@@ -39,4 +39,4 @@ The relation "Todo" consists of 4 attributes:
       Note- todbkeys.py is hidden since its contains database credentials.
       
   One can replace dbkeys.connect_todb() with  psycopg2.connect("dbname= user= ")
-  
+  One must start from Oye.py and follow along.
